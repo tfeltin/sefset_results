@@ -1,6 +1,6 @@
 # SEFSET benchmark results
 
-The following selections are the detailed results for the method described in *SEFSET: Semantic Feature Selection for fault diagnosis in Telemetry data*.
+The following selections are the detailed results for the method described in *SEFSET: Semantic Feature Selection for fault diagnosis in Telemetry data*. Details on the lab topology can be found [here](https://github.com/cisco-ie/telemetry/tree/master/11).
 
 ## Routing loop
 
