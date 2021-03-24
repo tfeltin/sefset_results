@@ -19,6 +19,7 @@ The following selections are the detailed results for the method described in *S
 
 ```
 - Cisco-IOS-XR-ipv4-io-oper:ipv4-network/nodes/node/statistics/traffic[node-name=0/0/CPU0]output
+- Cisco-IOS-XR-ipv4-io-oper:ipv4-network/nodes/node/statistics/traffic[node-name=0/1/CPU0]hopcount-sent
 - Cisco-IOS-XR-infra-statsd-oper:infra-statistics/interfaces/interface/latest/protocols/protocol[interface-name=HundredGigE0/1/0/23 protocol-name=IPV4_UNICAST]bytes-received
 - Cisco-IOS-XR-infra-statsd-oper:infra-statistics/interfaces/interface/latest/protocols/protocol[interface-name=HundredGigE0/0/0/22 protocol-name=IPV4_UNICAST]bytes-received
 - Cisco-IOS-XR-infra-statsd-oper:infra-statistics/interfaces/interface/latest/protocols/protocol[interface-name=HundredGigE0/0/0/35 protocol-name=IPV4_UNICAST]bytes-received
