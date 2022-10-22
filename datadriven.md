@@ -1,8 +1,8 @@
 # Data-driven selection results
 
-The following shows the data-driven selection results for change amplitude, suspace-based and explainable AI. Each list shows the top 50 highest ranking features for an interface shudown on interface 10 (```HundredGigE0/0/0/10```)
+The following shows the data-driven selection results for change amplitude, Linear Discriminant Analysis, and Random Forest + SHAP. Each list shows the top 50 highest ranking features for an interface shudown on interface 10 (```HundredGigE0/0/0/10```), within an original dataset of 23650 features. 
 
-## Change amplitude
+## Univariate Change Amplitude
 
 ```
 - Cisco-IOS-XR-ipv4-bgp-oper:bgp/instances/instance/instance-active/default-vrf/process-info[instance-name=default]path-attributes-entry-count
@@ -57,7 +57,7 @@ The following shows the data-driven selection results for change amplitude, susp
 - Cisco-IOS-XR-ip-bfd-oper:bfd/ipv6-single-hop-session-details/ipv6-single-hop-session-detail[interface-name=HundredGigE0/0/0/10 destination-address=2001:420:289:2000:0:1ab:fab0:1228 location=0/0/CPU0 local-discriminator=2147491888]hours
 ```
 
-## Suspace-based method (LDA)
+## Linear Discriminant Analysis
 
 ```
 - Cisco-IOS-XR-infra-statsd-oper:infra-statistics/interfaces/interface/latest/protocols/protocol[interface-name=HundredGigE0/0/0/1 protocol-name=IPV6_UNICAST]output-packet-rate
@@ -112,7 +112,7 @@ The following shows the data-driven selection results for change amplitude, susp
 - Cisco-IOS-XR-pfi-im-cmd-oper:interfaces/interface-xr/interface[interface-name=HundredGigE0/0/0/30]output-load
 ```
 
-## Explainale AI (random forest + SHAP)
+## Random forest + SHAP
 
 ```
 - Cisco-IOS-XR-pfi-im-cmd-oper:interfaces/interface-xr/interface[interface-name=HundredGigE0/0/0/10]input-data-rate
